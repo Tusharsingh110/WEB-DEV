@@ -75,7 +75,7 @@ p{
 /*You may need to research some other selectors and properties*/
 
 /*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
-.list{
+input[type=checkbox]{
 	margin-left: 50px;
 }
 
@@ -84,7 +84,7 @@ label{
 }
 
 /*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
-span{
+#special::first-letter{
 	font-size: 100px;
 	color: green;
 }
